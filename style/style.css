@@ -81,11 +81,11 @@ a.nav:hover{
 
 .name-site-slogan{
   color: #666;
-  font-size: clamp(12px, 2vw, 85%);
+  font-size: clamp(12px, 4vw, 85%);
 }
 
 .slogan {
-  font-size: clamp(16px, 4vw, 170%);
+  font-size: clamp(16px, 7vw, 170%);
   font-family: Pacifico;
   letter-spacing: 1px;
   transition: all 0.4s ease;
@@ -100,7 +100,7 @@ img.main-img{
   object-fit: cover;
   object-position: center;
   margin-top: 11%;
-  margin-bottom: clamp(50px, 4%, 100px);
+  margin-bottom: clamp(30px, 10vw, 100px);
 }
 
 figure.main-img{
