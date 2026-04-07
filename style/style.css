@@ -65,7 +65,7 @@ a.nav:hover{
 .contacts{
   display: flex;
   font-size: clamp(12px, 1vw, 25px);
-  margin: 0% 2%;
+  margin: 0% 1%;
   font-family: Pacifico;
   text-align: center;
 }
