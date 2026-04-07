@@ -64,7 +64,7 @@ a.nav:hover{
 .name-site-nav,
 .contacts{
   display: flex;
-  font-size: clamp(5px, 2vw, 25px);
+  font-size: clamp(3px, 2vw, 20px);
   margin: 0% 1%;
   font-family: Pacifico;
   text-align: center;
@@ -89,6 +89,7 @@ a.nav:hover{
   font-family: Pacifico;
   letter-spacing: 1px;
   transition: all 0.4s ease;
+  margin: 0 10vw;
 }
 
 img.main-img{
@@ -99,7 +100,7 @@ img.main-img{
   height: 40%;
   object-fit: cover;
   object-position: center;
-  margin-top: 11%;
+  margin-top: 15vw;
   margin-bottom: clamp(30px, 10vw, 100px);
 }
 
