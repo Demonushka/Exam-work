@@ -64,7 +64,7 @@ a.nav:hover{
 .name-site-nav,
 .contacts{
   display: flex;
-  font-size: clamp(10px, 1.5vw, 25px);
+  font-size: clamp(7px, 2vw, 25px);
   margin: 0% 2%;
   font-family: Pacifico;
   text-align: center;
@@ -81,11 +81,11 @@ a.nav:hover{
 
 .name-site-slogan{
   color: #666;
-  font-size: clamp(15px, 2vw, 85%);
+  font-size: clamp(12px, 2vw, 85%);
 }
 
 .slogan {
-  font-size: clamp(20px, 3vw, 170%);
+  font-size: clamp(16px, 3vw, 170%);
   font-family: Pacifico;
   letter-spacing: 1px;
   transition: all 0.4s ease;
