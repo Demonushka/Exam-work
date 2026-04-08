@@ -72,10 +72,9 @@ a.nav:hover{
 
 .Logo-img{
   display: block;
-  max-width: 740px;
-  width: 85%;
+  width: clamp(300px, 85%, 740px);
   max-height: 395px;
-  height: 35%;
+  height: auto;
   object-fit: cover;
   object-position: center;
 }
