@@ -24,6 +24,17 @@ body{
     background-size: cover;
     background-position: center; 
   }
+
+  .Logo-img{
+    width: 100%;
+    height: auto;
+  }
+
+  .Logo-figure{
+    display: flex;
+    margin-top: clamp(80px, 10vw, 200px);
+    margin-bottom: 10px;
+  }
 }
 
 header{
@@ -83,7 +94,6 @@ a.nav:hover{
   width: clamp(320px, 95%, 740px);
   max-height: 395px;
   height: auto;
-  object-fit: contain;
   object-position: center;
 }
 
