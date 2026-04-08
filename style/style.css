@@ -92,7 +92,7 @@ a.nav:hover{
   justify-content: center;
   align-items: center;
   margin-top: clamp(80px, 10vw, 200px);
-  margin-bottom: clamp(10px, 2vw, 70px);
+  margin-bottom: 10px;
 }
 
 .slogan{
