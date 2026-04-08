@@ -157,17 +157,20 @@ div > p{
   }
 
   .Logo-img{
-    display: block;
     width: 100%;
+    max-height: none;
     padding: 0 10px;
+    border: 2px solid red;
   }
 
   .Logo-figure{
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: clamp(80px, 15vw, 200px);
-    margin-bottom: 0px;
+    margin-bottom: -20px;
   }
 
   .slogan-and-signature {
