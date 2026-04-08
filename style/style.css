@@ -76,13 +76,14 @@ a.nav:hover{
   max-height: 395px;
   height: auto;
   object-position: center;
+  border: 2px solid red;
 }
 
 .Logo-figure{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  border: 2px solid black;
   margin-top: clamp(80px, 10vw, 200px);
 }
 
@@ -92,11 +93,12 @@ a.nav:hover{
   font-family: Pacifico;
   letter-spacing: 1px;
   transition: all 0.4s ease;
+  border: 2px solid black;
   margin: 0 clamp(10px, 5vw, 10%);
 }
 
 .signature{
-  margin: 0;
+  border: 2px solid black;
   color: #666;
   font-size: clamp(12px, 4vw, 25px);
 }
@@ -147,41 +149,4 @@ div > p{
 
 .provice{
   grid-row: span 2;
-}
-
-@media (max-width: 600px) {
-  
-  .Logo-figure {
-    margin: 0 !important; 
-    padding: 0 !important;
-    margin-top: 90px !important; 
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .Logo-img {
-    width: 100vw !important;
-    max-width: 100% !important;
-    height: auto !important;
-    max-height: none !important;
-    object-fit: contain;
-  }
-
-  .slogan-and-signature {
-    margin-top: -30px !important;
-    padding: 0 10px;
-    z-index: 2;
-  }
-
-  .slogan {
-    font-size: 1.3rem !important;
-    line-height: 1.1;
-    margin-bottom: 5px;
-  }
-
-  .signature {
-    margin: 0 !important;
-    font-size: 0.9rem !important;
-  }
 }
