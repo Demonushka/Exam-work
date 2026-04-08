@@ -72,10 +72,10 @@ a.nav:hover{
 
 .Logo-img{
   display: block;
-  width: clamp(300px, 100%, 740px);
+  width: clamp(260px, 90%, 740px);
   max-height: 395px;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -83,8 +83,8 @@ a.nav:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: clamp(20px, 25vw, 200px);
-  margin-bottom: clamp(0px, 2vw, 70px);
+  margin-top: clamp(20px, 10vw, 200px);
+  margin-bottom: clamp(10px, 2vw, 70px);
 }
 
 .slogan{
@@ -97,7 +97,7 @@ a.nav:hover{
 
 .signature{
   color: #666;
-  font-size: clamp(10px, 2rem, 40px);
+  font-size: clamp(10px, 1.4rem, 40px);
 }
 
 .slogan-and-signature{
