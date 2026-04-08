@@ -72,7 +72,7 @@ a.nav:hover{
 
 .Logo-img{
   display: block;
-  width: clamp(260px, 90%, 740px);
+  width: clamp(260px, 95%, 740px);
   max-height: 395px;
   height: auto;
   object-fit: contain;
@@ -83,12 +83,12 @@ a.nav:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: clamp(20px, 10vw, 200px);
+  margin-top: clamp(80px, 10vw, 200px);
   margin-bottom: clamp(10px, 2vw, 70px);
 }
 
 .slogan{
-  font-size: clamp(12px, 2.2rem, 50px);
+  font-size: clamp(12px, 6vw, 50px);
   font-family: Pacifico;
   letter-spacing: 1px;
   transition: all 0.4s ease;
