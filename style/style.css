@@ -150,33 +150,38 @@ div > p{
 }
 
 @media (max-width: 600px) {
-  body {
-    background-attachment: scroll; 
-    background-size: cover;
-    background-position: center; 
-  }
-
-  .Logo-img{
-    width: 100%;
-    max-height: none;
-    padding: 0 10px;
-    border: 2px solid red;
-  }
-
-  .Logo-figure{
-    margin: 0;
-    padding: 0;
+  
+  .Logo-figure {
+    margin: 0 !important; 
+    padding: 0 !important;
+    margin-top: 90px !important; 
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: clamp(80px, 15vw, 200px);
-    margin-bottom: -20px;
+    width: 100%;
+  }
+
+  .Logo-img {
+    width: 100vw !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain;
   }
 
   .slogan-and-signature {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: -5px;
+    margin-top: -30px !important;
+    padding: 0 10px;
+    z-index: 2;
+  }
+
+  .slogan {
+    font-size: 1.3rem !important;
+    line-height: 1.1;
+    margin-bottom: 5px;
+  }
+
+  .signature {
+    margin: 0 !important;
+    font-size: 0.9rem !important;
   }
 }
