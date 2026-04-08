@@ -18,38 +18,6 @@ body{
   background-size: cover; 
 }
 
-@media (max-width: 600px) {
-  body {
-    background-attachment: scroll; 
-    background-size: cover;
-    background-position: center; 
-  }
-
-  .Logo-img{
-    display: block;
-    width: clamp(320px, 95%, 740px);
-    max-height: none;
-    height: auto;
-    object-fit: contain;
-  }
-
-  .Logo-figure{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: clamp(80px, 15vw, 200px);
-    margin-bottom: 0px;
-  }
-
-  .slogan-and-signature {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: -10px;
-}
-
-}
-
 header{
   display: flex;
   position: fixed;
@@ -114,8 +82,8 @@ a.nav:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
   margin-top: clamp(80px, 10vw, 200px);
-  margin-bottom: 10px;
 }
 
 .slogan{
@@ -128,6 +96,7 @@ a.nav:hover{
 }
 
 .signature{
+  margin: 0;
   color: #666;
   font-size: clamp(12px, 4vw, 25px);
 }
@@ -180,3 +149,31 @@ div > p{
   grid-row: span 2;
 }
 
+@media (max-width: 600px) {
+  body {
+    background-attachment: scroll; 
+    background-size: cover;
+    background-position: center; 
+  }
+
+  .Logo-img{
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .Logo-figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: clamp(80px, 15vw, 200px);
+    margin-bottom: 0px;
+  }
+
+  .slogan-and-signature {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -5px;
+  }
+}
