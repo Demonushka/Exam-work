@@ -71,34 +71,29 @@ a.nav:hover{
 }
 
 .Logo-img{
-  display: block;
-  width: clamp(320px, 95%, 740px);
-  max-height: 395px;
+  width: clamp(280px, 90%, 740px);
   height: auto;
-  object-position: center;
-  border: 2px solid red;
 }
 
 .Logo-figure{
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  margin-top: clamp(80px, 10vw, 200px);
+  align-items: end;
+  margin-top: clamp(30px, 15vw, 200px);
+  
 }
 
 .slogan{
   font-size: clamp(24px, 6vw, 50px);
-  line-height: 1.2;
+  line-height: 1.1;
   font-family: Pacifico;
   letter-spacing: 1px;
   transition: all 0.4s ease;
-  border: 2px solid black;
   margin: 0 clamp(10px, 5vw, 10%);
 }
 
 .signature{
-  border: 2px solid black;
+  margin-top: -5px;
   color: #666;
   font-size: clamp(12px, 4vw, 25px);
 }
