@@ -26,15 +26,28 @@ body{
   }
 
   .Logo-img{
-    width: 100%;
+    display: block;
+    width: clamp(320px, 95%, 740px);
+    max-height: none;
     height: auto;
+    object-fit: contain;
   }
 
   .Logo-figure{
     display: flex;
-    margin-top: clamp(80px, 10vw, 200px);
-    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: clamp(80px, 15vw, 200px);
+    margin-bottom: 0px;
   }
+
+  .slogan-and-signature {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -10px;
+}
+
 }
 
 header{
