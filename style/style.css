@@ -34,6 +34,7 @@ header{
   border: 2px solid #666;
 
   box-sizing: border-box;
+  z-index: 100;
 }
 
 nav{
@@ -58,7 +59,7 @@ a.nav{
 }
 
 a.nav:hover{
-  background-color: #e1858584;
+  background-color: #e18a8575;
 }
 
 .name-site-nav,
@@ -105,42 +106,80 @@ a.nav:hover{
   flex-direction: column;
 }
 
-.info{
+.heading-and-text-block{
   display: flex;
   flex-direction: column;
+  margin-top: 11%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.text-decoration{
+  display: grid;
+  font-family: Pacifico, cursive;
+  font-size: clamp(18px, 1.6vw, 36px);
+  padding: clamp(10px, 2%, 30px);
+  gap: clamp(26px, 2vw, 40px);
 }
 
 section > h2{
-  margin-top: clamp(100px, 9%, 150px);
-  margin-left: 7%;
   scroll-margin-top: 100px;
+  font-size: clamp(28px, 1.7vw, 48px);
+  margin-bottom: 10px;
+  margin-left: 7%;
 }
 
-.block-text{
-  margin: 1% 3%;
+.about{
   border: 2px solid black;
   border-radius: 40px;
   background-color: #f9f1e4;
-  padding: clamp(15px, 1vw, 50px);
-}
-
-div > p{
-  font-family: Pacifico;
-  font-size: 21px;
+  letter-spacing: 2px;
+  padding-left: clamp(10px, 2%, 20px);
 }
 
 .service{
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto;
-  grid-auto-flow: column;
+  grid-template-rows: auto;
   border: 2px solid black;
-  border-radius: 20px;
-  padding: 1% 1%;
-  background-color: #e8dcc4;
-  margin: 1% 3%;
+  border-radius: 40px;
+  background-color: #e8dcc4aa;
+  gap: clamp(5px, 2vw, 40px);
+  padding: clamp(5px, 2vw, 40px);
 }
 
-.provice{
-  grid-row: span 2;
+.service :nth-child(3) {
+  grid-column: 1 / 3;
 }
+
+div > a > article > h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(5px, 1.1rem, 30px);
+}
+
+div > a > article > p{
+  background-color: #F9F1E4;
+  padding: 20px clamp(15px, 3%, 30px);
+}
+
+.service-block{
+  display: flex;
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid #666;
+  overflow: hidden;
+}
+
+.service-head-up{
+  border-bottom: 2px solid #666;
+}
+
+.service-head-down{
+  border-top: 2px solid #666;
+}
+
+
+
+
