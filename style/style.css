@@ -80,7 +80,7 @@ a.nav:hover{
   display: flex;
   justify-content: center;
   align-items: end;
-  margin-top: clamp(120px, 15vw, 250px);
+  margin-top: clamp(170px, 13vw, 250px);
 }
 
 .slogan{
@@ -97,6 +97,7 @@ a.nav:hover{
   margin-top: -2px;
   color: #666;
   font-size: clamp(12px, 4vw, 25px);
+  font-family: sans-serif;
 }
 
 .slogan-and-signature{
@@ -109,7 +110,7 @@ a.nav:hover{
 .heading-and-text-block{
   display: flex;
   flex-direction: column;
-  margin-top: 11%;
+  margin-top: clamp(150px, 14vw, 200px);
   margin-left: 5%;
   margin-right: 2%;
 }
@@ -127,6 +128,7 @@ section > h2{
   font-size: clamp(28px, 1.7vw, 48px);
   margin-bottom: 10px;
   margin-left: 7%;
+  font-family: sans-serif;
 }
 
 .about{
@@ -134,7 +136,7 @@ section > h2{
   border-radius: 40px;
   background-color: #f9f1e4;
   letter-spacing: 2px;
-  padding-left: clamp(10px, 2%, 20px);
+  padding-left: clamp(14px, 2%, 20px);
 }
 
 .service{
@@ -156,20 +158,53 @@ div > a > article > h3{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #666;
   font-size: clamp(5px, 1.1rem, 30px);
+  padding: 5px;
+  font-family: sans-serif;
+  pointer-events: none;
+}
+
+div > a > article > h3::after{
+  content: "🐾";
+  margin-left: 7px;
+  display: flex;
+}
+
+.service-block:hover article > h3::after{
+  transform: rotate(20deg) scale(1.2);
+  transition: 0.3s;
 }
 
 div > a > article > p{
+  display: flex;
+  flex-grow: 1;
   background-color: #F9F1E4;
   padding: 20px clamp(15px, 3%, 30px);
+  color: black;
+  pointer-events: none;
 }
 
 .service-block{
-  display: flex;
+  display: block;
   background-color: white;
   border-radius: 25px;
   border: 2px solid #666;
+  text-decoration: none;
+}
+
+.service-block article {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 25px;
   overflow: hidden;
+}
+
+.service-block:hover h3{
+  transform: scale(1.1);
+  transition: 0.3s;
+  color: black;
 }
 
 .service-head-up{
@@ -179,7 +214,4 @@ div > a > article > p{
 .service-head-down{
   border-top: 2px solid #666;
 }
-
-
-
 
