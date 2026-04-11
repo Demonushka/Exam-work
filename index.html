@@ -11,14 +11,14 @@
 </head>
 <body>
   <header>
-    <div class="name-site-nav">PdL Corporation</div>
+    <a href="index.html" class="text-in-nav">PdL Corporation</a>
     <nav>
       <a href="#about" class="nav">О нас</a>
       <a href="#services" class="nav">Услуги</a>
       <a href="#reviews" class="nav">Отзывы</a>
       <a href="Pages/auto.html" class="nav">Войти</a>
     </nav>
-    <div class="contacts">Наши контакты</div>
+    <a href="#contacts" class="text-in-nav">Наши контакты</a>
   </header>
   <main>
     <figure class="Logo-figure">
@@ -59,11 +59,48 @@
         </a>
       </div>
     </section>
-    <section>
-      <h2 id="reviews">Отзывы наших клиентов</h2>
+    <section class="heading-and-text-block">
+      <h2 id="reviews">Отзывы</h2>
       <div>
+        <div class="line-reviews">
+          <article class="reviews-block">
+            <h3 class="reviews-head">Даниил</h3>
+            <p class="text-decoration reviews-text">Сегодняшний день прошел просто отлично. Я сделал дизайн в фигме. Прождал Гвоздкова минут 20. Поел в мистере гриле и послушал крутые шутки Матвея.</p>
+            <div class="reviews-stars"><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></div>
+          </article>
+          <article class="reviews-block">
+            <h3 class="reviews-head">Артем</h3>
+            <p class="text-decoration reviews-text">Мужики... У меня кот через два дня взорвался... Это можно как-то пофиксить?</p>
+            <div class="reviews-stars"><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></div>
+          </article>
+          <article class="reviews-block hidden-block">
+            <h3 class="reviews-head">Месси</h3>
+            <p class="text-decoration reviews-text">Так, тут кто-нибудь шарит за вархамер?</p>
+            <div class="reviews-stars"><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></div>
+          </article>
+        </div>
       </div>
     </section>
   </main>
+  <footer class="main-footer">
+    <div class="footer-block">
+      <div class="footer-info">
+        <h2 class="fluffy-tail">Пушистый хвост</h2>
+        <p>Ваш лучший друг ждет вас здесь.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#services">Услуги</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div id="contacts" class="footer-contacts">
+        <p>г. Саратов, ул. Котиков, 15</p>
+        <a href="https://web.telegram.org/a/#-1003770545703">Telegram</a>
+        <a href="https://max.ru">Max</a>
+        <a href="https://vk.ru/club220815679">Вк</a>
+        <p>+7 (999) 000-00-00</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
